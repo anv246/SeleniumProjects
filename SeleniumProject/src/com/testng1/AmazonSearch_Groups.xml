@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AmazonSearchGrouping">
+<groups>
+<run>
+<include name="regression"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testng1.AmazonSearch_Groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- AmazonSearchGrouping -->

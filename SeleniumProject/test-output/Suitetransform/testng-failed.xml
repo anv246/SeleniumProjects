@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suitetransform]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.testng1.IAnnotationTransformer_Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testng1.AmazonSearch_AnnotationTransformer">
+        <methods>
+          <include name="amazonsearch" invocation-numbers="0 1 2"/>
+          <include name="browserInvoke"/>
+          <include name="results"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.testng1.AmazonSearch_AnnotationTransformer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suitetransform] -->

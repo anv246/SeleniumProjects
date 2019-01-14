@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazonsearch_param_Suite">
+  <test name="Test">
+  <parameter name="Product" value="iphone"></parameter>
+  <parameter name="Category" value="Electronics"></parameter>
+    <classes>
+      <class name="com.testng1.AmazonSearch_Parameter_XML"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Test1">
+  <parameter name="Product" value="table"></parameter>
+  <parameter name="Category" value="Furniture"></parameter>
+    <classes>
+      <class name="com.testng1.AmazonSearch_Parameter_XML"/>
+    </classes>
+  </test> <!-- Test -->  
+</suite> <!-- Amazonsearch_param_Suite -->

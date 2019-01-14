@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-01-12T21:16:32Z" name="Default suite" finished-at="2019-01-12T21:16:59Z" duration-ms="26853">
+    <groups>
+    </groups>
+    <test started-at="2019-01-12T21:16:32Z" name="Default test" finished-at="2019-01-12T21:16:59Z" duration-ms="26853">
+      <class name="com.testng1.Robot_FW">
+        <test-method signature="BrowserInvoke()[pri:1, instance:com.testng1.Robot_FW@fa36558]" started-at="2019-01-12T21:16:32Z" name="BrowserInvoke" finished-at="2019-01-12T21:16:49Z" duration-ms="16395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="robotactions()[pri:2, instance:com.testng1.Robot_FW@fa36558]" started-at="2019-01-12T21:16:49Z" name="robotactions" finished-at="2019-01-12T21:16:59Z" duration-ms="10413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- robotactions -->
+      </class> <!-- com.testng1.Robot_FW -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

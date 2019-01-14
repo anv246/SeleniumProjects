@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonSearchListenerSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.testng1.ISuiteListener_Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testng1.AmazonSearch_ISuiteListener">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="browseURL"/>
+          <include name="results"/>
+        </methods>
+      </class> <!-- com.testng1.AmazonSearch_ISuiteListener -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AmazonSearchListenerSuite] -->
