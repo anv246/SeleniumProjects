@@ -21,6 +21,7 @@ public class AmazonSearch_Groups {
   
 	static WebDriver driver;
 	String sURL = "https://www.amazon.in/";
+	String sURL = "https://www.google.com/";
 	
 
   @Test(priority=1,groups= {"sanity","regression"})
