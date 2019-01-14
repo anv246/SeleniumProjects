@@ -27,6 +27,7 @@ public class AmazonSearch_Screenshot {
   
 	static WebDriver driver;
 	String sURL = "https://www.amazon.in/";
+	String sURL1 = "https://www.ebay.com/";
 	
 	
 
