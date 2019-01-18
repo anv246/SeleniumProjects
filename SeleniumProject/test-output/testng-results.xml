@@ -1,21 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-01-12T21:16:32Z" name="Default suite" finished-at="2019-01-12T21:16:59Z" duration-ms="26853">
+  <suite started-at="2019-01-16T17:03:13Z" name="Suite" finished-at="2019-01-16T17:03:27Z" duration-ms="14151">
     <groups>
     </groups>
-    <test started-at="2019-01-12T21:16:32Z" name="Default test" finished-at="2019-01-12T21:16:59Z" duration-ms="26853">
-      <class name="com.testng1.Robot_FW">
-        <test-method signature="BrowserInvoke()[pri:1, instance:com.testng1.Robot_FW@fa36558]" started-at="2019-01-12T21:16:32Z" name="BrowserInvoke" finished-at="2019-01-12T21:16:49Z" duration-ms="16395" status="PASS">
+    <test started-at="2019-01-16T17:03:13Z" name="Test" finished-at="2019-01-16T17:03:27Z" duration-ms="14151">
+      <class name="com.POMtestng.SeleniumHQ_Child2">
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be]" started-at="2019-01-16T17:03:13Z" name="BrowserInvoke" finished-at="2019-01-16T17:03:16Z" duration-ms="3234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserInvoke -->
-        <test-method signature="robotactions()[pri:2, instance:com.testng1.Robot_FW@fa36558]" started-at="2019-01-12T21:16:49Z" name="robotactions" finished-at="2019-01-12T21:16:59Z" duration-ms="10413" status="PASS">
+        <test-method signature="navigateURL()[pri:1, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be]" started-at="2019-01-16T17:03:16Z" name="navigateURL" finished-at="2019-01-16T17:03:21Z" duration-ms="4970" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- robotactions -->
-      </class> <!-- com.testng1.Robot_FW -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- navigateURL -->
+        <test-method is-config="true" signature="gettestresult(org.testng.ITestResult)[pri:0, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be]" started-at="2019-01-16T17:03:21Z" name="gettestresult" finished-at="2019-01-16T17:03:21Z" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateURL status=SUCCESS method=GoogleSearch_Child1.navigateURL()[pri:1, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettestresult -->
+        <test-method signature="seleniumhq()[pri:2, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be]" started-at="2019-01-16T17:03:21Z" name="seleniumhq" finished-at="2019-01-16T17:03:25Z" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumhq -->
+        <test-method is-config="true" signature="gettestresult(org.testng.ITestResult)[pri:0, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be]" started-at="2019-01-16T17:03:25Z" name="gettestresult" finished-at="2019-01-16T17:03:25Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seleniumhq status=SUCCESS method=GoogleSearch_Child1.seleniumhq()[pri:2, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettestresult -->
+        <test-method signature="seleniumpage()[pri:3, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be]" started-at="2019-01-16T17:03:25Z" name="seleniumpage" finished-at="2019-01-16T17:03:27Z" duration-ms="2275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumpage -->
+        <test-method is-config="true" signature="gettestresult(org.testng.ITestResult)[pri:0, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be]" started-at="2019-01-16T17:03:27Z" name="gettestresult" finished-at="2019-01-16T17:03:27Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seleniumpage status=SUCCESS method=SeleniumHQ_Child2.seleniumpage()[pri:3, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettestresult -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.POMtestng.SeleniumHQ_Child2@3943a2be]" started-at="2019-01-16T17:03:27Z" name="closeBrowser" finished-at="2019-01-16T17:03:27Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.POMtestng.SeleniumHQ_Child2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

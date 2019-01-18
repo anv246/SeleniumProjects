@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng1.AmazonSearch_ExtentReports">
+      <class name="com.POMtestng.GoogleSearch_Child1">
         <methods>
-          <include name="amazonsearch"/>
-          <include name="closebrowser"/>
-          <include name="results"/>
-          <include name="browserInvoke"/>
+          <include name="gettestresult"/>
+          <include name="BrowserInvoke"/>
+          <include name="closeBrowser"/>
+          <include name="seleniumhq"/>
         </methods>
-      </class> <!-- com.testng1.AmazonSearch_ExtentReports -->
+      </class> <!-- com.POMtestng.GoogleSearch_Child1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

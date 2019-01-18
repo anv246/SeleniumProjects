@@ -29,5 +29,6 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/org.apache.commons.io.jar/org.apache.commons.io.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/extentreports-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

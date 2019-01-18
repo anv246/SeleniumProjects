@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.testng1.IAnnotationTransformer_RetryAnalyzer_Listener"/>
-  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.testng1.AmazonSearch_RetryAnalyzer_AnnotationTransformer">
+      <class name="com.POMtestng.SeleniumHQ_Child2">
         <methods>
-          <include name="browserInvoke"/>
-          <include name="results"/>
-          <include name="getPageInfo"/>
-          <include name="closebrowser"/>
+          <include name="seleniumpage"/>
+          <include name="gettestresult"/>
+          <include name="BrowserInvoke"/>
+          <include name="closeBrowser"/>
+          <include name="seleniumhq"/>
         </methods>
-      </class> <!-- com.testng1.AmazonSearch_RetryAnalyzer_AnnotationTransformer -->
+      </class> <!-- com.POMtestng.SeleniumHQ_Child2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
